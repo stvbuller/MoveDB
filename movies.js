@@ -1,1 +1,0 @@
-CREATE TABLE samuel_l_jackson_movies (id INT(6) AUTO_INCREMENT PRIMARY KEY, movie VARCAR(30) NOT NULL, role VARCHAR(30) NOT NULL, date DATE NOT NULL);

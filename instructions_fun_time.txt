@@ -1,0 +1,29 @@
+Objectives: 
+* Students will run basic queries to make a database, tables, and populate those tables.
+* Students will use join SQL clauses
+
+1. Run all your commands in MySQL but also put all of them in chronological order inside of a fun_time.sql file
+2. Create a database called fun_time
+3. Inside fun_time, create a bars table with id, bar_name
+4. bars table must have at least 3 different bars (3 rows with different names)
+5. Create a 4th bar with the name of 'Moo Milk Bar' 
+6. Inside fun_time, create a drinks table with id, bar_id, drink_name, drink_price
+7. Create 3 different drinks in the drinks table (3 rows with different drink names, prices and bar_ids)
+8. Create another drink in the drinks table with a bar_id of the 'Moo Milk Bar'
+9. Create 1 drink that has no bar_id (because it's not available in any of the bars in your bars table)
+10. Use the following SQL JOINS: 
+
+LEFT join bars to drinks
+
+RIGHT join bars to drinks 
+
+Select all the drinks
+
+INNER JOIN drinks to bars
+
+FULL JOIN drinks to bars
+
+
+Bonus: 
+
+* check out the Moo Milk Bar website http://www.moomilkbar.ca/#the-bakery
